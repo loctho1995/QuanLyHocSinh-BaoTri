@@ -1,0 +1,80 @@
+E:\Visual Studio 2012\quan ly hoc sinh\QuanLyHocSinh\QuanLyHocSinh\bin\Debug\QuanLyHocSinh.exe.config
+E:\Visual Studio 2012\quan ly hoc sinh\QuanLyHocSinh\QuanLyHocSinh\bin\Debug\QuanLyHocSinh.exe
+E:\Visual Studio 2012\quan ly hoc sinh\QuanLyHocSinh\QuanLyHocSinh\bin\Debug\QuanLyHocSinh.pdb
+E:\Visual Studio 2012\quan ly hoc sinh\QuanLyHocSinh\QuanLyHocSinh\bin\Debug\BUS.dll
+E:\Visual Studio 2012\quan ly hoc sinh\QuanLyHocSinh\QuanLyHocSinh\bin\Debug\DAO.dll
+E:\Visual Studio 2012\quan ly hoc sinh\QuanLyHocSinh\QuanLyHocSinh\bin\Debug\BUS.pdb
+E:\Visual Studio 2012\quan ly hoc sinh\QuanLyHocSinh\QuanLyHocSinh\bin\Debug\DAO.pdb
+E:\Visual Studio 2012\quan ly hoc sinh\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.csprojResolveAssemblyReference.cache
+E:\Visual Studio 2012\quan ly hoc sinh\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.ButtonFlat.resources
+E:\Visual Studio 2012\quan ly hoc sinh\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.Form1.resources
+E:\Visual Studio 2012\quan ly hoc sinh\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmBaoCao.resources
+E:\Visual Studio 2012\quan ly hoc sinh\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmDangNhap.resources
+E:\Visual Studio 2012\quan ly hoc sinh\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmGiaoVien.resources
+E:\Visual Studio 2012\quan ly hoc sinh\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.FrmMain.resources
+E:\Visual Studio 2012\quan ly hoc sinh\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmCaiDat.resources
+E:\Visual Studio 2012\quan ly hoc sinh\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmSuaNhapHS.resources
+E:\Visual Studio 2012\quan ly hoc sinh\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmThongTinHS.resources
+E:\Visual Studio 2012\quan ly hoc sinh\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmXemDiem.resources
+E:\Visual Studio 2012\quan ly hoc sinh\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmXemSuaDiem_Mon.resources
+E:\Visual Studio 2012\quan ly hoc sinh\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.Properties.Resources.resources
+E:\Visual Studio 2012\quan ly hoc sinh\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.SearchControl.resources
+E:\Visual Studio 2012\quan ly hoc sinh\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.csproj.GenerateResource.Cache
+E:\Visual Studio 2012\quan ly hoc sinh\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.exe
+E:\Visual Studio 2012\quan ly hoc sinh\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.pdb
+E:\Visual Studio 2012\quan ly hoc sinh\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.Data.frmData.resources
+F:\Github\QuanLyHocSinh\QuanLyHocSinh\bin\Debug\QuanLyHocSinh.exe.config
+F:\Github\QuanLyHocSinh\QuanLyHocSinh\bin\Debug\QuanLyHocSinh.exe
+F:\Github\QuanLyHocSinh\QuanLyHocSinh\bin\Debug\QuanLyHocSinh.pdb
+F:\Github\QuanLyHocSinh\QuanLyHocSinh\bin\Debug\BUS.dll
+F:\Github\QuanLyHocSinh\QuanLyHocSinh\bin\Debug\DAO.dll
+F:\Github\QuanLyHocSinh\QuanLyHocSinh\bin\Debug\System.Windows.Forms.Ribbon35.dll
+F:\Github\QuanLyHocSinh\QuanLyHocSinh\bin\Debug\BUS.pdb
+F:\Github\QuanLyHocSinh\QuanLyHocSinh\bin\Debug\DAO.pdb
+F:\Github\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.csprojResolveAssemblyReference.cache
+F:\Github\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.ButtonFlat.resources
+F:\Github\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.Data.frmData.resources
+F:\Github\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.Form1.resources
+F:\Github\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmBaoCao.resources
+F:\Github\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmDangNhap.resources
+F:\Github\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmGiaoVien.resources
+F:\Github\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.FrmMain.resources
+F:\Github\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmCaiDat.resources
+F:\Github\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmSuaNhapHS.resources
+F:\Github\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmThongTinHS.resources
+F:\Github\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmXemDiem.resources
+F:\Github\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmXemSuaDiem_Mon.resources
+F:\Github\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.Properties.Resources.resources
+F:\Github\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.SearchControl.resources
+F:\Github\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.csproj.GenerateResource.Cache
+F:\Github\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.exe
+F:\Github\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.pdb
+F:\Github\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmInitData.resources
+F:\Github\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.StatusBar.resources
+C:\Users\locth\Desktop\Bao tri phan mem\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.csprojResolveAssemblyReference.cache
+C:\Users\locth\Desktop\Bao tri phan mem\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.ButtonFlat.resources
+C:\Users\locth\Desktop\Bao tri phan mem\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.Data.frmData.resources
+C:\Users\locth\Desktop\Bao tri phan mem\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.Form1.resources
+C:\Users\locth\Desktop\Bao tri phan mem\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmBaoCao.resources
+C:\Users\locth\Desktop\Bao tri phan mem\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmDangNhap.resources
+C:\Users\locth\Desktop\Bao tri phan mem\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmGiaoVien.resources
+C:\Users\locth\Desktop\Bao tri phan mem\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmInitData.resources
+C:\Users\locth\Desktop\Bao tri phan mem\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.FrmMain.resources
+C:\Users\locth\Desktop\Bao tri phan mem\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmCaiDat.resources
+C:\Users\locth\Desktop\Bao tri phan mem\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmSuaNhapHS.resources
+C:\Users\locth\Desktop\Bao tri phan mem\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmThongTinHS.resources
+C:\Users\locth\Desktop\Bao tri phan mem\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmXemDiem.resources
+C:\Users\locth\Desktop\Bao tri phan mem\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmXemSuaDiem_Mon.resources
+C:\Users\locth\Desktop\Bao tri phan mem\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.Properties.Resources.resources
+C:\Users\locth\Desktop\Bao tri phan mem\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.SearchControl.resources
+C:\Users\locth\Desktop\Bao tri phan mem\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.StatusBar.resources
+C:\Users\locth\Desktop\Bao tri phan mem\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.csproj.GenerateResource.Cache
+C:\Users\locth\Desktop\Bao tri phan mem\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.exe
+C:\Users\locth\Desktop\Bao tri phan mem\QuanLyHocSinh\QuanLyHocSinh\bin\Debug\QuanLyHocSinh.exe.config
+C:\Users\locth\Desktop\Bao tri phan mem\QuanLyHocSinh\QuanLyHocSinh\bin\Debug\QuanLyHocSinh.exe
+C:\Users\locth\Desktop\Bao tri phan mem\QuanLyHocSinh\QuanLyHocSinh\bin\Debug\QuanLyHocSinh.pdb
+C:\Users\locth\Desktop\Bao tri phan mem\QuanLyHocSinh\QuanLyHocSinh\bin\Debug\BUS.dll
+C:\Users\locth\Desktop\Bao tri phan mem\QuanLyHocSinh\QuanLyHocSinh\bin\Debug\DAO.dll
+C:\Users\locth\Desktop\Bao tri phan mem\QuanLyHocSinh\QuanLyHocSinh\bin\Debug\BUS.pdb
+C:\Users\locth\Desktop\Bao tri phan mem\QuanLyHocSinh\QuanLyHocSinh\bin\Debug\DAO.pdb
+C:\Users\locth\Desktop\Bao tri phan mem\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.pdb

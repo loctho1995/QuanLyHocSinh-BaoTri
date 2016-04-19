@@ -1,0 +1,5 @@
+F:\Github\QuanLyHocSinh\DAO\bin\Release\DAO.dll.config
+F:\Github\QuanLyHocSinh\DAO\bin\Release\DAO.dll
+F:\Github\QuanLyHocSinh\DAO\bin\Release\DAO.pdb
+F:\Github\QuanLyHocSinh\DAO\obj\Release\DAO.dll
+F:\Github\QuanLyHocSinh\DAO\obj\Release\DAO.pdb

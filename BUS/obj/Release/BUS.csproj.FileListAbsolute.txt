@@ -1,0 +1,8 @@
+F:\Github\QuanLyHocSinh\BUS\bin\Release\BUS.dll.config
+F:\Github\QuanLyHocSinh\BUS\bin\Release\BUS.dll
+F:\Github\QuanLyHocSinh\BUS\bin\Release\BUS.pdb
+F:\Github\QuanLyHocSinh\BUS\bin\Release\DAO.dll
+F:\Github\QuanLyHocSinh\BUS\bin\Release\DAO.pdb
+F:\Github\QuanLyHocSinh\BUS\obj\Release\BUS.csprojResolveAssemblyReference.cache
+F:\Github\QuanLyHocSinh\BUS\obj\Release\BUS.dll
+F:\Github\QuanLyHocSinh\BUS\obj\Release\BUS.pdb
