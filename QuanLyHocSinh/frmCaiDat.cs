@@ -30,7 +30,7 @@ namespace QuanLyHocSinh
 
             m_frmMain = frmMain;
 
-            buttonFlat3.BackColor = buttonFlat4.BackColor = Color.FromArgb(int.Parse(DataBase.CaiDat.TOPBUTTONCOLOR));
+            //buttonFlat3.BackColor = buttonFlat4.BackColor = Color.FromArgb(int.Parse(DataBase.CaiDat.TOPBUTTONCOLOR));
 
             InitPanel();
         }
@@ -94,8 +94,8 @@ namespace QuanLyHocSinh
         {           
             if (colorDialog1.ShowDialog() == System.Windows.Forms.DialogResult.OK)
             {
-                m_btclose.BackColor = m_btmaxSize.BackColor = m_btHide.BackColor =  m_btdangXuat.BackColor
-                    = m_btCaiDat.BackColor = colorDialog1.Color;
+                //m_btclose.BackColor = m_btmaxSize.BackColor = m_btHide.BackColor =  m_btdangXuat.BackColor
+                    //= m_btCaiDat.BackColor = colorDialog1.Color;
             }
         }
 
@@ -127,11 +127,11 @@ namespace QuanLyHocSinh
             m_tbBaoCao.BackColor = m_tbBaoCao.BackColor;
             m_tbHocTap.BackColor = m_tbBaoCao.BackColor;
 
-            m_btclose.BackColor = Color.FromArgb(54, 104, 175);
-            m_btHide.BackColor = m_btclose.BackColor;
-            m_btmaxSize.BackColor = m_btclose.BackColor;
-            m_btGiaoVien.BackColor = m_btclose.BackColor;
-            m_btCaiDat.BackColor = m_btclose.BackColor;                                                         
+            //m_btclose.BackColor = Color.FromArgb(54, 104, 175);
+            //m_btHide.BackColor = m_btclose.BackColor;
+            //m_btmaxSize.BackColor = m_btclose.BackColor;
+            //m_btGiaoVien.BackColor = m_btclose.BackColor;
+            //m_btCaiDat.BackColor = m_btclose.BackColor;                                                         
             
 
             m_btBaoCao.BackColor = m_btSuaDiem.BackColor = m_btSuaHS.BackColor = m_btThemHS.BackColor
@@ -162,5 +162,6 @@ namespace QuanLyHocSinh
         {
             this.WindowState = FormWindowState.Minimized;
         }
+
     }
 }

@@ -14,3 +14,11 @@ F:\Github\QuanLyHocSinh\BUS\bin\Debug\DAO.pdb
 F:\Github\QuanLyHocSinh\BUS\obj\Debug\BUS.csprojResolveAssemblyReference.cache
 F:\Github\QuanLyHocSinh\BUS\obj\Debug\BUS.dll
 F:\Github\QuanLyHocSinh\BUS\obj\Debug\BUS.pdb
+C:\Users\thinh\Desktop\QuanLyHocSinh-BaoTri\BUS\bin\Debug\BUS.dll.config
+C:\Users\thinh\Desktop\QuanLyHocSinh-BaoTri\BUS\bin\Debug\BUS.dll
+C:\Users\thinh\Desktop\QuanLyHocSinh-BaoTri\BUS\bin\Debug\BUS.pdb
+C:\Users\thinh\Desktop\QuanLyHocSinh-BaoTri\BUS\bin\Debug\DAO.dll
+C:\Users\thinh\Desktop\QuanLyHocSinh-BaoTri\BUS\bin\Debug\DAO.pdb
+C:\Users\thinh\Desktop\QuanLyHocSinh-BaoTri\BUS\obj\Debug\BUS.csprojResolveAssemblyReference.cache
+C:\Users\thinh\Desktop\QuanLyHocSinh-BaoTri\BUS\obj\Debug\BUS.dll
+C:\Users\thinh\Desktop\QuanLyHocSinh-BaoTri\BUS\obj\Debug\BUS.pdb

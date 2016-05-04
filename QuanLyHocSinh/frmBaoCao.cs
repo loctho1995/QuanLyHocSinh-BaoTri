@@ -15,7 +15,7 @@ using System.Drawing.Printing;
 
 namespace QuanLyHocSinh
 {
-    public partial class frmBaoCao : FormFlat
+    public partial class frmBaoCao : Form
     {
 
         public frmBaoCao(DataGridView data, string Lop, string TableName)
@@ -23,46 +23,43 @@ namespace QuanLyHocSinh
             InitializeComponent();
 
             this.m_dgvData.DataSource = data.DataSource;
-            this.AllowFormResize = true;
+            //this.AllowFormResize = true;
             m_lableLop.Text = Lop;
             m_tableName.Text = TableName;
 
-            m_btclose.BackColor = m_btHide.BackColor = m_btmaxSize.BackColor = Color.FromArgb(int.Parse(DataBase.CaiDat.TOPBUTTONCOLOR));
-            button2.BackColor = Print.BackColor = m_btnPreview.BackColor = Color.FromArgb(int.Parse(DataBase.CaiDat.TABBUTTONCOLOR));
+            //m_btclose.BackColor = m_btHide.BackColor = m_btmaxSize.BackColor = Color.FromArgb(int.Parse(DataBase.CaiDat.TOPBUTTONCOLOR));
+            //button2.BackColor = Print.BackColor = m_btnPreview.BackColor = Color.FromArgb(int.Parse(DataBase.CaiDat.TABBUTTONCOLOR));
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
+        //private void button1_Click(object sender, EventArgs e)
+        //{
+        //    this.Close();
+        //}
 
-        private void button2_Click(object sender, EventArgs e)
-        {
-            SaveFileDialog save = new SaveFileDialog();
-            save.Filter = "Excel (*.xls) |*.xls | All Files (*.*) |*.*";
-            save.ShowDialog();
+        //private void button2_Click(object sender, EventArgs e)
+        //{
+        //    SaveFileDialog save = new SaveFileDialog();
+        //    save.Filter = "Excel (*.xls) |*.xls | All Files (*.*) |*.*";
+        //    save.ShowDialog();
             
-            string path = save.FileName.ToString();
-            if (path != "")
-            {
-                DataTable dataTable = new DataTable();
-                dataTable = (DataTable)m_dgvData.DataSource;
-                try
-                {
-                    ExpEcel(dataTable, path);
-                    MessageBox.Show("Success");
+        //    string path = save.FileName.ToString();
+        //    if (path != "")
+        //    {
+        //        DataTable dataTable = new DataTable();
+        //        dataTable = (DataTable)m_dgvData.DataSource;
+        //        try
+        //        {
+        //            ExpEcel(dataTable, path);
+        //            MessageBox.Show("Success");
 
-                }
-                catch
-                {
-                    MessageBox.Show("Youre fucking something up!!");
+        //        }
+        //        catch
+        //        {
+        //            MessageBox.Show("Youre fucking something up!!");
 
-                }
-            }
-            
-
-
-        }
+        //        }
+        //    }
+        //}
         void ExpEcel(DataTable data, string path)
         {
             object misValue = System.Reflection.Missing.Value;
@@ -90,32 +87,32 @@ namespace QuanLyHocSinh
             app.Quit();
         }
 
-        private void m_btclose_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
+        //private void m_btclose_Click(object sender, EventArgs e)
+        //{
+        //    this.Close();
+        //}
 
-        private void m_btmaxSize_Click(object sender, EventArgs e)
-        {
-            (sender as ButtonFlat).SaveChanged = true;
+        //private void m_btmaxSize_Click(object sender, EventArgs e)
+        //{
+        //    (sender as ButtonFlat).SaveChanged = true;
 
-            if (this.WindowState != FormWindowState.Maximized)
-            {
-                this.WindowState = FormWindowState.Maximized;
-                m_btmaxSize.ButtonImage = QuanLyHocSinh.Properties.Resources.iconminsize;
-            }
-            else
-            {
-                this.WindowState = FormWindowState.Normal;
-                m_btmaxSize.ButtonImage = QuanLyHocSinh.Properties.Resources.iconmaxsize;
-            }
-        }
+        //    if (this.WindowState != FormWindowState.Maximized)
+        //    {
+        //        this.WindowState = FormWindowState.Maximized;
+        //        m_btmaxSize.ButtonImage = QuanLyHocSinh.Properties.Resources.iconminsize;
+        //    }
+        //    else
+        //    {
+        //        this.WindowState = FormWindowState.Normal;
+        //        m_btmaxSize.ButtonImage = QuanLyHocSinh.Properties.Resources.iconmaxsize;
+        //    }
+        //}
 
-        private void m_btHide_Click(object sender, EventArgs e)
-        {
-            WindowState = FormWindowState.Minimized;
-            (sender as ButtonFlat).SaveChanged = true;
-        }
+        //private void m_btHide_Click(object sender, EventArgs e)
+        //{
+        //    WindowState = FormWindowState.Minimized;
+        //    (sender as ButtonFlat).SaveChanged = true;
+        //}
 
         private void Print_Click(object sender, EventArgs e)
         {
@@ -127,10 +124,6 @@ namespace QuanLyHocSinh
 
             printDocument.PrintPage += new System.Drawing.Printing.PrintPageEventHandler(CreateTable);
 
-
-
-
-
             DialogResult result = printDialog.ShowDialog();
 
             if (result == DialogResult.OK)
@@ -138,9 +131,6 @@ namespace QuanLyHocSinh
                 printDocument.Print();
 
             }
-
-
-
         }
         public void CreateTable(object sender, System.Drawing.Printing.PrintPageEventArgs e)
         {
@@ -149,7 +139,20 @@ namespace QuanLyHocSinh
             e.Graphics.DrawImage(bm, 0, 0);
         }
 
-        private void Preview_Click(object sender, EventArgs e)
+        //private void Preview_Click(object sender, EventArgs e)
+        //{
+        //    PrintDocument printDocument = new PrintDocument();
+
+        //    printDocument.PrintPage += new System.Drawing.Printing.PrintPageEventHandler(CreateTable);
+
+        //    PrintPreviewDialog preview = new PrintPreviewDialog();
+
+        //    preview.Document = printDocument;
+
+        //    preview.Show();
+        //}
+
+        private void m_ButtonPreview_Click(object sender, EventArgs e)
         {
             PrintDocument printDocument = new PrintDocument();
 
@@ -160,6 +163,50 @@ namespace QuanLyHocSinh
             preview.Document = printDocument;
 
             preview.Show();
+        }
+
+        private void m_ButtonPrint_Click(object sender, EventArgs e)
+        {
+            PrintDialog printDialog = new PrintDialog();
+
+            PrintDocument printDocument = new PrintDocument();
+
+            printDialog.Document = printDocument;
+
+            printDocument.PrintPage += new System.Drawing.Printing.PrintPageEventHandler(CreateTable);
+
+            DialogResult result = printDialog.ShowDialog();
+
+            if (result == DialogResult.OK)
+            {
+                printDocument.Print();
+
+            }
+        }
+
+        private void m_ButtonExport_Click(object sender, EventArgs e)
+        {
+            SaveFileDialog save = new SaveFileDialog();
+            save.Filter = "Excel (*.xls) |*.xls | All Files (*.*) |*.*";
+            save.ShowDialog();
+
+            string path = save.FileName.ToString();
+            if (path != "")
+            {
+                DataTable dataTable = new DataTable();
+                dataTable = (DataTable)m_dgvData.DataSource;
+                try
+                {
+                    ExpEcel(dataTable, path);
+                    MessageBox.Show("Success");
+
+                }
+                catch
+                {
+                    MessageBox.Show("Youre fucking something up!!");
+
+                }
+            }
         }
 
 

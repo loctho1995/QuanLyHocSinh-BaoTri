@@ -75,7 +75,7 @@ namespace DAO
     #endregion
 		
 		public SQL_QUANLYHOCSINHDataContext() : 
-				base(global::DAO.Properties.Settings.Default.sql_quanlyhocsinhConnectionString6, mappingSource)
+				base(global::DAO.Properties.Settings.Default.sql_quanlyhocsinhConnectionString7, mappingSource)
 		{
 			OnCreated();
 		}
@@ -104,19 +104,19 @@ namespace DAO
 			OnCreated();
 		}
 		
-		public System.Data.Linq.Table<USER> USERs
-		{
-			get
-			{
-				return this.GetTable<USER>();
-			}
-		}
-		
 		public System.Data.Linq.Table<CAIDAT> CAIDATs
 		{
 			get
 			{
 				return this.GetTable<CAIDAT>();
+			}
+		}
+		
+		public System.Data.Linq.Table<USER> USERs
+		{
+			get
+			{
+				return this.GetTable<USER>();
 			}
 		}
 		
@@ -491,6 +491,105 @@ namespace DAO
 		}
 	}
 	
+	[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.CAIDAT")]
+	public partial class CAIDAT
+	{
+		
+		private string _MAIN_BACKCOLOR;
+		
+		private string _TOPBUTTONCOLOR;
+		
+		private string _TABBUTTONCOLOR;
+		
+		private string _SEACHCONTROL_BACKGOUND;
+		
+		private string _TABPANEL_COLOR;
+		
+		public CAIDAT()
+		{
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_MAIN_BACKCOLOR", DbType="VarChar(50)")]
+		public string MAIN_BACKCOLOR
+		{
+			get
+			{
+				return this._MAIN_BACKCOLOR;
+			}
+			set
+			{
+				if ((this._MAIN_BACKCOLOR != value))
+				{
+					this._MAIN_BACKCOLOR = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_TOPBUTTONCOLOR", DbType="VarChar(50)")]
+		public string TOPBUTTONCOLOR
+		{
+			get
+			{
+				return this._TOPBUTTONCOLOR;
+			}
+			set
+			{
+				if ((this._TOPBUTTONCOLOR != value))
+				{
+					this._TOPBUTTONCOLOR = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_TABBUTTONCOLOR", DbType="VarChar(50)")]
+		public string TABBUTTONCOLOR
+		{
+			get
+			{
+				return this._TABBUTTONCOLOR;
+			}
+			set
+			{
+				if ((this._TABBUTTONCOLOR != value))
+				{
+					this._TABBUTTONCOLOR = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_SEACHCONTROL_BACKGOUND", DbType="VarChar(50)")]
+		public string SEACHCONTROL_BACKGOUND
+		{
+			get
+			{
+				return this._SEACHCONTROL_BACKGOUND;
+			}
+			set
+			{
+				if ((this._SEACHCONTROL_BACKGOUND != value))
+				{
+					this._SEACHCONTROL_BACKGOUND = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_TABPANEL_COLOR", DbType="VarChar(50)")]
+		public string TABPANEL_COLOR
+		{
+			get
+			{
+				return this._TABPANEL_COLOR;
+			}
+			set
+			{
+				if ((this._TABPANEL_COLOR != value))
+				{
+					this._TABPANEL_COLOR = value;
+				}
+			}
+		}
+	}
+	
 	[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.USERS")]
 	public partial class USER : INotifyPropertyChanging, INotifyPropertyChanged
 	{
@@ -662,105 +761,6 @@ namespace DAO
 			if ((this.PropertyChanged != null))
 			{
 				this.PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
-			}
-		}
-	}
-	
-	[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.CAIDAT")]
-	public partial class CAIDAT
-	{
-		
-		private string _MAIN_BACKCOLOR;
-		
-		private string _TOPBUTTONCOLOR;
-		
-		private string _TABBUTTONCOLOR;
-		
-		private string _SEACHCONTROL_BACKGOUND;
-		
-		private string _TABPANEL_COLOR;
-		
-		public CAIDAT()
-		{
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_MAIN_BACKCOLOR", DbType="VarChar(50)")]
-		public string MAIN_BACKCOLOR
-		{
-			get
-			{
-				return this._MAIN_BACKCOLOR;
-			}
-			set
-			{
-				if ((this._MAIN_BACKCOLOR != value))
-				{
-					this._MAIN_BACKCOLOR = value;
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_TOPBUTTONCOLOR", DbType="VarChar(50)")]
-		public string TOPBUTTONCOLOR
-		{
-			get
-			{
-				return this._TOPBUTTONCOLOR;
-			}
-			set
-			{
-				if ((this._TOPBUTTONCOLOR != value))
-				{
-					this._TOPBUTTONCOLOR = value;
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_TABBUTTONCOLOR", DbType="VarChar(50)")]
-		public string TABBUTTONCOLOR
-		{
-			get
-			{
-				return this._TABBUTTONCOLOR;
-			}
-			set
-			{
-				if ((this._TABBUTTONCOLOR != value))
-				{
-					this._TABBUTTONCOLOR = value;
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_SEACHCONTROL_BACKGOUND", DbType="VarChar(50)")]
-		public string SEACHCONTROL_BACKGOUND
-		{
-			get
-			{
-				return this._SEACHCONTROL_BACKGOUND;
-			}
-			set
-			{
-				if ((this._SEACHCONTROL_BACKGOUND != value))
-				{
-					this._SEACHCONTROL_BACKGOUND = value;
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_TABPANEL_COLOR", DbType="VarChar(50)")]
-		public string TABPANEL_COLOR
-		{
-			get
-			{
-				return this._TABPANEL_COLOR;
-			}
-			set
-			{
-				if ((this._TABPANEL_COLOR != value))
-				{
-					this._TABPANEL_COLOR = value;
-				}
 			}
 		}
 	}

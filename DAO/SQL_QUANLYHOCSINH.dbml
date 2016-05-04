@@ -1,14 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?><Database Name="sql_quanlyhocsinh" Class="SQL_QUANLYHOCSINHDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
-  <Connection Mode="AppSettings" ConnectionString="Data Source=LOCTHO\LOCTHO;Initial Catalog=sql_quanlyhocsinh;Integrated Security=True" SettingsObjectName="DAO.Properties.Settings" SettingsPropertyName="sql_quanlyhocsinhConnectionString6" Provider="System.Data.SqlClient" />
-  <Table Name="dbo.USERS" Member="USERs">
-    <Type Name="USER">
-      <Column Name="ID" Type="System.String" DbType="Char(5) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
-      <Column Name="PASSWORD" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
-      <Column Name="EMAIL" Type="System.String" DbType="VarChar(40)" CanBeNull="true" />
-      <Column Name="PHANQUYEN" Type="System.Int32" DbType="Int" CanBeNull="true" />
-      <Association Name="GIAOVIEN_USER" Member="GIAOVIEN" ThisKey="ID" OtherKey="MAGV" Type="GIAOVIEN" IsForeignKey="true" />
-    </Type>
-  </Table>
+  <Connection Mode="AppSettings" ConnectionString="Data Source=THINH;Initial Catalog=sql_quanlyhocsinh;Integrated Security=True" SettingsObjectName="DAO.Properties.Settings" SettingsPropertyName="sql_quanlyhocsinhConnectionString7" Provider="System.Data.SqlClient" />
   <Table Name="dbo.CAIDAT" Member="CAIDATs">
     <Type Name="CAIDAT">
       <Column Name="MAIN_BACKCOLOR" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
@@ -16,6 +7,15 @@
       <Column Name="TABBUTTONCOLOR" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
       <Column Name="SEACHCONTROL_BACKGOUND" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
       <Column Name="TABPANEL_COLOR" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.USERS" Member="USERs">
+    <Type Name="USER">
+      <Column Name="ID" Type="System.String" DbType="Char(5) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="PASSWORD" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="EMAIL" Type="System.String" DbType="VarChar(40)" CanBeNull="true" />
+      <Column Name="PHANQUYEN" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="GIAOVIEN_USER" Member="GIAOVIEN" ThisKey="ID" OtherKey="MAGV" Type="GIAOVIEN" IsForeignKey="true" />
     </Type>
   </Table>
   <Table Name="dbo.DIEMHOCKY1" Member="DIEMHOCKY1s">

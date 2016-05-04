@@ -21,7 +21,7 @@ namespace QuanLyHocSinh
             InitializeComponent();
 
             this.BackColor = Color.FromArgb(int.Parse(DataBase.CaiDat.MAIN_BACKCOLOR));
-            this.m_btclose.BackColor = m_btHide.BackColor = Color.FromArgb(int.Parse(DataBase.CaiDat.TOPBUTTONCOLOR));
+            //this.m_btclose.BackColor = m_btHide.BackColor = Color.FromArgb(int.Parse(DataBase.CaiDat.TOPBUTTONCOLOR));
         }
         
         private const int cGrip = 5;      // Grip size, khoảng range để xác định cho việc resize form xem thêm ở WndPrc
@@ -113,8 +113,8 @@ namespace QuanLyHocSinh
         private void LoadColor()
         {
             this.BackColor = Color.FromArgb(int.Parse(DataBase.CaiDat.MAIN_BACKCOLOR));
-            m_btnThem.BackColor = m_btnLuu.BackColor = m_btnSua.BackColor = m_btnTaoTK.BackColor = m_btnXoa.BackColor = Color.FromArgb(int.Parse(DataBase.CaiDat.TABBUTTONCOLOR));
-            m_btHide.BackColor = m_btclose.BackColor = Color.FromArgb(int.Parse(DataBase.CaiDat.TOPBUTTONCOLOR));
+            //m_btnThem.BackColor = m_btnLuu.BackColor = m_btnSua.BackColor = m_btnTaoTK.BackColor = m_btnXoa.BackColor = Color.FromArgb(int.Parse(DataBase.CaiDat.TABBUTTONCOLOR));
+            //m_btHide.BackColor = m_btclose.BackColor = Color.FromArgb(int.Parse(DataBase.CaiDat.TOPBUTTONCOLOR));
         }
 
         private void LoadData()
@@ -124,7 +124,7 @@ namespace QuanLyHocSinh
 
         private void m_dgvGV_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            m_btnTaoTK.Enabled = true;
+            m_ButtonSuaTaiKhoan.Enabled = true;
             if (m_dgvGV.SelectedRows[0] != null)
             {
                 DeleteTextBox();
@@ -169,8 +169,8 @@ namespace QuanLyHocSinh
 
         private void m_btnThem_Click(object sender, EventArgs e)
         {
-            m_btnTaoTK.Enabled = false;
-            m_btnLuu.Enabled = true;
+            m_ButtonSuaTaiKhoan.Enabled = false;
+            m_ButtonLuu.Enabled = true;
             DeleteTextBox();
         }
 
@@ -188,7 +188,7 @@ namespace QuanLyHocSinh
 
         private void m_btnLuu_Click(object sender, EventArgs e)
         {
-            m_btnTaoTK.Enabled = false;
+            m_ButtonSuaTaiKhoan.Enabled = false;
             InsertDuLieu();
         }
         private void InsertDuLieu()
@@ -226,7 +226,7 @@ namespace QuanLyHocSinh
             }
             if (MessageBox.Show("Bạn có muốn xóa không ?", "Thông báo", MessageBoxButtons.OKCancel) == DialogResult.Cancel)
                 return;
-            m_btnTaoTK.Enabled = false;
+            m_ButtonSuaTaiKhoan.Enabled = false;
             giaovien = new GIAOVIEN();
             giaovien.MAGV = m_txtMaGV.Text;
             if (DataBase.GiaoVien.DeleteDuLieuGV(giaovien.MAGV))
@@ -240,7 +240,7 @@ namespace QuanLyHocSinh
 
         private void m_btnSua_Click(object sender, EventArgs e)
         {
-            m_btnTaoTK.Enabled = false;
+            m_ButtonSuaTaiKhoan.Enabled = false;
             if (m_txtMaGV.Text == "")
             {
                 MessageBox.Show("Thông tin trống", "Thông báo!");
@@ -269,6 +269,75 @@ namespace QuanLyHocSinh
         private void m_btclose_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void m_ButtonThem_Click(object sender, EventArgs e)
+        {
+            m_ButtonSuaTaiKhoan.Enabled = false;
+            m_ButtonLuu.Enabled = true;
+            DeleteTextBox();
+        }
+
+        private void m_ButtonLuu_Click(object sender, EventArgs e)
+        {
+            m_ButtonSuaTaiKhoan.Enabled = false;
+            InsertDuLieu();
+        }
+
+        private void m_ButtonSua_Click(object sender, EventArgs e)
+        {
+            m_ButtonSuaTaiKhoan.Enabled = false;
+            if (m_txtMaGV.Text == "")
+            {
+                MessageBox.Show("Thông tin trống", "Thông báo!");
+                return;
+            }
+            giaovien = new GIAOVIEN();
+            giaovien.MAGV = m_txtMaGV.Text;
+            giaovien.HOTEN = m_txtHoten.Text;
+            giaovien.GIOITINH = m_cbbGioitinh.SelectedItem.ToString();
+            giaovien.SODT = m_txtSoDT.Text;
+            giaovien.NGAYSINH = DateTime.Parse(m_dtpNgaysinh.Text);
+            user = new USER();
+            user.PASSWORD = m_txtPass.Text;
+            user.EMAIL = m_txtEmail.Text;
+            if (m_cbbPhanquyen.SelectedItem != null)
+                user.PHANQUYEN = int.Parse(m_cbbPhanquyen.SelectedItem.ToString());
+            if (DataBase.GiaoVien.UpdateDuLieuGV(giaovien, user))
+            {
+                MessageBox.Show("Thành công", "Thông báo");
+                LoadData();
+                return;
+            }
+            MessageBox.Show("Thất bại", "Thông báo");
+        }
+
+        private void m_ButtonXoa_Click(object sender, EventArgs e)
+        {
+            if (m_txtMaGV.Text == "")
+            {
+                MessageBox.Show("Thông tin trống", "Thông báo!");
+                return;
+            }
+            if (MessageBox.Show("Bạn có muốn xóa không ?", "Thông báo", MessageBoxButtons.OKCancel) == DialogResult.Cancel)
+                return;
+            m_ButtonSuaTaiKhoan.Enabled = false;
+            giaovien = new GIAOVIEN();
+            giaovien.MAGV = m_txtMaGV.Text;
+            if (DataBase.GiaoVien.DeleteDuLieuGV(giaovien.MAGV))
+            {
+                MessageBox.Show("Thành công", "Thông báo");
+                LoadData();
+                return;
+            }
+            MessageBox.Show("Thất bại", "Thông báo");
+        }
+
+        private void m_ButtonSuaTaiKhoan_Click(object sender, EventArgs e)
+        {
+            type = 1;
+            InsertDuLieu();
+            type = 0;
         }
 
     }
