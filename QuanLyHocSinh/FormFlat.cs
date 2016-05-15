@@ -205,5 +205,23 @@ namespace QuanLyHocSinh
 
             base.OnPaint(e);
         }
+
+        private void InitializeComponent()
+        {
+            this.SuspendLayout();
+            // 
+            // FormFlat
+            // 
+            this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Name = "FormFlat";
+            this.Load += new System.EventHandler(this.FormFlat_Load);
+            this.ResumeLayout(false);
+
+        }
+
+        private void FormFlat_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -12,7 +12,7 @@ using System.Drawing.Drawing2D;
 
 namespace QuanLyHocSinh
 {
-    public partial class frmXemDiem : FormFlat
+    public partial class frmXemDiem : Form
     {
 
         //int m_maHS;
@@ -30,7 +30,7 @@ namespace QuanLyHocSinh
             this.MaximumSize = this.Size;
             this.MinimumSize = this.Size;
 
-            m_btClose.BackColor = m_btminimize.BackColor = Color.FromArgb(int.Parse(DataBase.CaiDat.TOPBUTTONCOLOR));
+            //m_btClose.BackColor = m_btminimize.BackColor = Color.FromArgb(int.Parse(DataBase.CaiDat.TOPBUTTONCOLOR));
         }
 
         private void frmXemDiem_Load(object sender, EventArgs e)

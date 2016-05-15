@@ -28,8 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.m_btminimize = new QuanLyHocSinh.ButtonFlat();
-            this.m_btClose = new QuanLyHocSinh.ButtonFlat();
             this.m_lbLop = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.m_lbTenHS = new System.Windows.Forms.Label();
@@ -45,52 +43,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.m_dgvMain)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // m_btminimize
-            // 
-            this.m_btminimize.AlphaGlow = 40F;
-            this.m_btminimize.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(101)))), ((int)(((byte)(99)))));
-            this.m_btminimize.ButtonImage = global::QuanLyHocSinh.Properties.Resources.iconminmize;
-            this.m_btminimize.ButtonText = "";
-            this.m_btminimize.DeltaAlphaGlow = 2F;
-            this.m_btminimize.DeltaDistance = 2F;
-            this.m_btminimize.HaveEffects = false;
-            this.m_btminimize.ImageOrigin = new System.Drawing.Point(0, 0);
-            this.m_btminimize.ImageSize = new System.Drawing.Size(25, 25);
-            this.m_btminimize.Location = new System.Drawing.Point(588, 2);
-            this.m_btminimize.MouseState = QuanLyHocSinh.ButtonFlat.MouseStates.Leave;
-            this.m_btminimize.Name = "m_btminimize";
-            this.m_btminimize.SaveChanged = false;
-            this.m_btminimize.ShadownDistance = 6;
-            this.m_btminimize.Size = new System.Drawing.Size(43, 27);
-            this.m_btminimize.TabIndex = 55;
-            this.m_btminimize.TextAlignment = QuanLyHocSinh.ButtonFlat.BTTextAlignment.Bot;
-            this.m_btminimize.TextColor = System.Drawing.Color.White;
-            this.m_btminimize.TextOrigin = new System.Drawing.Point(0, 0);
-            this.m_btminimize.Click += new System.EventHandler(this.m_btminimize_Click);
-            // 
-            // m_btClose
-            // 
-            this.m_btClose.AlphaGlow = 40F;
-            this.m_btClose.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(101)))), ((int)(((byte)(99)))));
-            this.m_btClose.ButtonImage = global::QuanLyHocSinh.Properties.Resources.iconClose;
-            this.m_btClose.ButtonText = "";
-            this.m_btClose.DeltaAlphaGlow = 2F;
-            this.m_btClose.DeltaDistance = 2F;
-            this.m_btClose.HaveEffects = false;
-            this.m_btClose.ImageOrigin = new System.Drawing.Point(0, 0);
-            this.m_btClose.ImageSize = new System.Drawing.Size(25, 25);
-            this.m_btClose.Location = new System.Drawing.Point(637, 2);
-            this.m_btClose.MouseState = QuanLyHocSinh.ButtonFlat.MouseStates.Leave;
-            this.m_btClose.Name = "m_btClose";
-            this.m_btClose.SaveChanged = false;
-            this.m_btClose.ShadownDistance = 6;
-            this.m_btClose.Size = new System.Drawing.Size(43, 27);
-            this.m_btClose.TabIndex = 54;
-            this.m_btClose.TextAlignment = QuanLyHocSinh.ButtonFlat.BTTextAlignment.Bot;
-            this.m_btClose.TextColor = System.Drawing.Color.White;
-            this.m_btClose.TextOrigin = new System.Drawing.Point(0, 0);
-            this.m_btClose.Click += new System.EventHandler(this.m_btClose_Click);
             // 
             // m_lbLop
             // 
@@ -230,10 +182,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            //this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(683, 501);
-            this.Controls.Add(this.m_btminimize);
-            this.Controls.Add(this.m_btClose);
             this.Controls.Add(this.m_lbLop);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.m_lbTenHS);
@@ -246,7 +195,7 @@
             this.Controls.Add(this.label15);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            //this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frmXemDiem";
             this.Text = "frmXemDiem";
             this.Load += new System.EventHandler(this.frmXemDiem_Load);
@@ -271,7 +220,5 @@
         private System.Windows.Forms.Label m_lbTenHS;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label m_lbLop;
-        private ButtonFlat m_btClose;
-        private ButtonFlat m_btminimize;
     }
 }

@@ -12,7 +12,7 @@ using BUS;
 
 namespace QuanLyHocSinh
 {
-    public partial class frmThongTinHS : FormFlat
+    public partial class frmThongTinHS : Form
     {
         DataGridViewRow m_row;
         HocSinh_BUS hs = new HocSinh_BUS();
@@ -25,14 +25,15 @@ namespace QuanLyHocSinh
         public frmThongTinHS(DataGridViewRow row)
         {            
             InitializeComponent();
-            this.InitGraphics();
+            //this.InitGraphics();
 
             m_row = row;            
 
             this.MaximumSize = this.Size;
             this.MinimumSize = this.Size;
 
-            m_btchinhSua.BackColor = m_btClose.BackColor = m_btminimize.BackColor = Color.FromArgb(int.Parse(DataBase.CaiDat.TOPBUTTONCOLOR));
+            //m_btchinhSua.BackColor = m_btClose.BackColor = m_btminimize.BackColor = Color.FromArgb(int.Parse(DataBase.CaiDat.TOPBUTTONCOLOR));
+            m_btchinhSua.BackColor = Color.FromArgb(int.Parse(DataBase.CaiDat.TOPBUTTONCOLOR));
         }
 
         //cho phép resize góc dưới bên phải
@@ -91,5 +92,6 @@ namespace QuanLyHocSinh
         {
             WindowState = FormWindowState.Minimized;
         }
+
     }
 }

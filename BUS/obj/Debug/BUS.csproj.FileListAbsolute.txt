@@ -22,3 +22,11 @@ C:\Users\thinh\Desktop\QuanLyHocSinh-BaoTri\BUS\bin\Debug\DAO.pdb
 C:\Users\thinh\Desktop\QuanLyHocSinh-BaoTri\BUS\obj\Debug\BUS.csprojResolveAssemblyReference.cache
 C:\Users\thinh\Desktop\QuanLyHocSinh-BaoTri\BUS\obj\Debug\BUS.dll
 C:\Users\thinh\Desktop\QuanLyHocSinh-BaoTri\BUS\obj\Debug\BUS.pdb
+C:\Users\Sky\Documents\GitHub\QuanLyHocSinh-BaoTri\BUS\bin\Debug\BUS.dll.config
+C:\Users\Sky\Documents\GitHub\QuanLyHocSinh-BaoTri\BUS\bin\Debug\BUS.dll
+C:\Users\Sky\Documents\GitHub\QuanLyHocSinh-BaoTri\BUS\bin\Debug\BUS.pdb
+C:\Users\Sky\Documents\GitHub\QuanLyHocSinh-BaoTri\BUS\bin\Debug\DAO.dll
+C:\Users\Sky\Documents\GitHub\QuanLyHocSinh-BaoTri\BUS\bin\Debug\DAO.pdb
+C:\Users\Sky\Documents\GitHub\QuanLyHocSinh-BaoTri\BUS\obj\Debug\BUS.csprojResolveAssemblyReference.cache
+C:\Users\Sky\Documents\GitHub\QuanLyHocSinh-BaoTri\BUS\obj\Debug\BUS.dll
+C:\Users\Sky\Documents\GitHub\QuanLyHocSinh-BaoTri\BUS\obj\Debug\BUS.pdb

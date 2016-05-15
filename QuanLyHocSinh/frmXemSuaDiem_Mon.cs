@@ -11,7 +11,7 @@ using BUS;
 
 namespace QuanLyHocSinh
 {
-    public partial class frmXemSuaDiem_Mon : FormFlat
+    public partial class frmXemSuaDiem_Mon : Form
     {
         DataGridViewRow m_row;
         HocSinh_BUS hs = new HocSinh_BUS();
@@ -56,7 +56,7 @@ namespace QuanLyHocSinh
 
         private void InitButton()
         {
-            m_btminimize.BackColor = m_btClose.BackColor = Color.FromArgb(int.Parse(DataBase.CaiDat.TOPBUTTONCOLOR));
+            //m_btminimize.BackColor = m_btClose.BackColor = Color.FromArgb(int.Parse(DataBase.CaiDat.TOPBUTTONCOLOR));
             m_btSua.BackColor = m_btLuu.BackColor = Color.FromArgb(int.Parse(DataBase.CaiDat.TABBUTTONCOLOR));
         }
 
@@ -91,7 +91,7 @@ namespace QuanLyHocSinh
 
         private void m_btSua_Click(object sender, EventArgs e)
         {
-            if (m_btSua.ButtonText.ToString() != "Cancel")
+            if (m_btSua.Text.ToString() != "Cancel")
             {
                 EnableAllTB();
 
@@ -103,9 +103,9 @@ namespace QuanLyHocSinh
                 m_lbTBHK1text.Visible = false;
                 m_lbTBHK2text.Visible = false;
 
-                m_btSua.ButtonText = "Cancel";
-                m_btSua.ButtonImage = QuanLyHocSinh.Properties.Resources.iconClose;
-                m_btSua.ImageOrigin = new Point(30, 0);
+                m_btSua.Text = "Cancel";
+                m_btSua.Image = QuanLyHocSinh.Properties.Resources.iconClose;
+                //m_btSua.ImageOrigin = new Point(30, 0);
             }
             else
             {
@@ -120,9 +120,9 @@ namespace QuanLyHocSinh
                 m_lbTBHK1text.Visible = true;
                 m_lbTBHK2text.Visible = true;
 
-                m_btSua.ButtonText = "Sửa";
-                m_btSua.ImageOrigin = new Point(30, 0);
-                m_btSua.ButtonImage = QuanLyHocSinh.Properties.Resources.chinhsua;
+                m_btSua.Text = "Sửa";
+                //m_btSua.ImageOrigin = new Point(30, 0);
+                m_btSua.Image = QuanLyHocSinh.Properties.Resources.chinhsua;
             }
         }
 
@@ -149,9 +149,9 @@ namespace QuanLyHocSinh
                             DisableAllTB();
                             m_btLuu.Enabled = false;
 
-                            m_btSua.ButtonText = "Sửa";
-                            m_btSua.ImageOrigin = new Point(30, 0);
-                            m_btSua.ButtonImage = QuanLyHocSinh.Properties.Resources.chinhsua;
+                            m_btSua.Text = "Sửa";
+                            //m_btSua.ImageOrigin = new Point(30, 0);
+                            m_btSua.Image = QuanLyHocSinh.Properties.Resources.chinhsua;
 
                             LoadDiem();
 

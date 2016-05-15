@@ -173,6 +173,9 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Form1.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormFlat.resx">
+      <DependentUpon>FormFlat.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmBaoCao.resx">
       <DependentUpon>frmBaoCao.cs</DependentUpon>
     </EmbeddedResource>
